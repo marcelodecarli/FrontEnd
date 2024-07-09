@@ -1,0 +1,36 @@
+table {
+    border: solid;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #a5a5a5;
+    font-size: 1.5rem;
+}
+
+button {
+    border: solid 2px;
+    border-radius: 3px;
+    background-color: #462c83;
+}
+
+.linkButton {
+    text-decoration: none;
+    color:khaki
+
+}
+
+td,
+th {
+    border: solid;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.interno {
+    padding: 5px;
+
+}
+
+.tdButton {
+    padding-left: 2px;
+    padding-bottom: 5px;
+}
