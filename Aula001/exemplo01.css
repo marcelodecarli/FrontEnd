@@ -46,7 +46,6 @@ span {
     width: 100%;
     align-items: center;
     justify-content: center;
-    display: flex;
     flex-wrap: wrap;
 
 }
@@ -55,7 +54,7 @@ span {
     align-items: center;
     justify-content: center;
     justify-items: center;
-    display: flex;
+    
 
 }
 
@@ -63,5 +62,5 @@ span {
     align-items: center;
     justify-content: center;
     justify-items: center;
-    display: flex;
+    
 }
