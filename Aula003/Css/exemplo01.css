@@ -1,3 +1,25 @@
-body{
-    background-color: #ddd;
+html,
+body {
+    background-color: #8bb9a0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(92, 70, 70);
+}
+
+.teste {
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: silver;
+    width: calc((100% / 2) - 2rem);
+    /* calco para descontar a margem da largura do box se aumenta a marge tem que ajustar aqui tb */
+
 }

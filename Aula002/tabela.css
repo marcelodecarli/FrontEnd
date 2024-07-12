@@ -1,5 +1,5 @@
 table {
-    border-collapse: collapse;
+    border-collapse:collapse;
     border: 2px solid rgb(0, 0, 0);
     letter-spacing: 1px;
     font-size: 1.2rem;
@@ -11,7 +11,8 @@ table {
   }
   
   th {
-    background-color: rgb(104, 104, 104);
+    background-color: rgb(109, 109, 109);
+    color: antiquewhite;
   }
   
   td {
@@ -19,10 +20,10 @@ table {
   }
   
   tr:nth-child(even) td {
-    background-color: rgb(165, 164, 164);
+    background-color: rgb(216, 216, 216);
     
   }
   
   tr:nth-child(odd) td {
-    background-color: rgb(245,245,245);
+    background-color: rgb(255, 255, 255);
   }
