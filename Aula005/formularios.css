@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(216, 216, 216);
+    padding: 10px;
+    font-family:'Bona Nova SC'
+}
+
+.button{
+  background-color: gold;
+  border-radius: 8px;
+}

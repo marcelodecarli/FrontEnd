@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="formularios.css">
+    <title>Exercicio</title>
+</head>
+
+<body>
+
+    <h1>Exercicio de formulário de cadastro</h1>
+
+    <form action="./cadastrado.html" method="get">
+
+        <label>Nome:</label><br>
+        <input type="text" name="name" placeholder="digite o seu nome"> <br><br>
+        <label>Email:</label><br>
+        <input type="email" name="name" placeholder="digite o seu email"> <br><br>
+        <label>Idade:</label><br>
+        <input type="number" name="age" placeholder="digite sua idade"> <br><br>
+        <label>Cidade:</label><br>
+        <select name="city">
+            <option value="SL">São Leopoldo</option>
+            <option value="NH">Novo Hamburgo</option>
+            <option value="FL">Florianópolis</option>
+            <option value="JO">Joinvile</option>
+        </select> <br><br>
+        <label>Estado:</label><br>
+        <select name="state">
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="SC">Santa Catarina</option>
+        </select> <br><br>
+        <label>Digite a sua mensagem:</label><br>
+        <textarea></textarea><br><br>
+        <label>Masculino:</label>
+        <input type="radio" name="Masculino">
+        <label>Feminino</label>
+        <input type="radio" name="Feminino"> <br><br>
+
+        <input type="submit" value="Cadastrar" class="button"/>
+        <input type="reset" value="Limpar Campos" class="button"/>
+        
+    </form>
+
+</body>
+
+</html>
