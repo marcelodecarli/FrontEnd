@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        background-color: #c4c4c4;
+    }
+
+    .checkbox {
+        background-color: rgb(248, 8, 0);
+    }
+
+    .buttom {
+        background-color: rgb(150, 152, 172);
+        border: ridge;
+        border-color: rgb(53, 53, 53);
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .buttom:hover {
+        background-color: rgb(0, 0, 0);
+        color: aliceblue
+    }
+</style>
+
+<body>
+
+    <form action="./funcionou.html" method="get">
+        <table border="1">
+            <tr>
+                <th colspan="2" align="center">
+                    <h1>Application</h1>
+                </th>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="name">What's your name?</label>
+                </td>
+                <td>
+                    <input type="text" name="name" placeholder="Full name" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email">Email:</label>
+                </td>
+                <td>
+                    <input type="email" name="email" placeholder="Email@email.com" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">Password:</label>
+                </td>
+                <td>
+                    <input type="password" name="password" minlength="6" maxlength="10" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Where do you live:</label>
+                </td>
+                <td>
+                    <select name="cityAndState">
+                        <option value="CITY">Choose your city</option>
+                        <option value="SL">São Leopoldo</option>
+                        <option value="NP">Nova Prata</option>
+                        <option value="NH">Novo Hamburgo</option>
+                        <option value="ES">Esteio</option>
+                        <option value="POA">Porto Alegre</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <th rowspan="4">
+                    <label>About your job:</label>
+                </th>
+                <td>
+                    <label>Home Office</label>
+                    <input type="checkbox" name="home" id="checkbox" value="Home Office" class="checkbox">
+                </td>
+
+            <tr>
+
+                <td>
+                    <label>Job on office</label>
+                    <input type="checkbox" name="office" id="checkbox" value="Job on office" class="checkbox">
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Traveling</label>
+                    <input type="checkbox" name="travel" id="checkbox" value="Traveling" class="checkbox">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Salesman</label>
+                    <input type="checkbox" name="sales" id="checkbox" value="Salesman" class="checkbox">
+                </td>
+            </tr>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="doubts">Tell us about yourself:</label>
+                </td>
+
+                <td>
+                    <textarea id="doubts" name="doubts" rows="5" cols="35" minlength="500" maxlength="1000"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="submit" value="Send your application" class="buttom">
+                </td>
+                <td>
+                    <input type="reset" value="Reset" class="buttom">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+
+</html>
+
+<!-- 
+      select (com 5 opções);
+      checkbox (com pelo menos 2 opções);
+      textarea (com tamanho definido);
+      inputs (text, submit, reset, password).
+      
+      -->
