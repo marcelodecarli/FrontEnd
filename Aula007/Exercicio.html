@@ -8,31 +8,48 @@
 </head>
 
 <style>
+    * {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
 
-*{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
     body {
         background-color: #dfdfdf;
     }
 
-    table{
+    ul {
+        list-style: none;
+        padding:5px;
+        width: 200px;
+    }
+    ul>li {
+        margin:5px;
+    }
+
+    .word {
+        display: flex;
+        align-items: left;
+        flex-wrap: wrap;
+        background-color: aqua;
+        list-style: none;
+    }
+
+    table {
         border: solid 2px;
         background-color: rgb(124, 155, 138);
         border-radius: 10px;
-        padding: 5px;
+
     }
-    
-    input,select, textarea{
-        border:inherit;
+
+    input, select, textarea {
+        border: inherit;
         border-radius: 7px;
     }
 
-    td, tr, th{
+    td, tr, th {
         background-color: #c4c4c4;
-        border:outset #3b3b3b;
+        border: outset #3b3b3b;
         border-radius: 10px;
-        padding: 4px;
+
     }
 
     .buttom {
@@ -52,14 +69,27 @@
 <body>
 
     <form action="./funcionou.html" method="get">
+
         <table class="table">
+
+
             <tr>
                 <th colspan="3" align="center">
-                    <h1>Application</h1>
+                    <h1>Application SideBar</h1>
                 </th>
+
             </tr>
 
             <tr>
+                <td rowspan="10">
+                    <ul>
+                        <li class="word">teste</li>
+                        <li>teste</li>
+                        <li>teste</li>
+                        <li>teste</li>
+
+                    </ul>
+                </td>
                 <td>
                     <label for="name">What's your name?</label>
                 </td>
