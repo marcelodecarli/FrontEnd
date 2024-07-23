@@ -7,7 +7,7 @@ body {
     font-family: "Bona Nova SC";
     line-height: 1.6;
     background: #d0d1ff;
-    
+
 }
 
 
@@ -15,6 +15,8 @@ header {
     background: #011935;
     color: #bbbbbb;
     padding: 10px;
+    border-bottom: solid #39ad3f;
+
 }
 
 header h1 {
@@ -22,31 +24,32 @@ header h1 {
     text-align: center;
 }
 
-.navPrincipal{
+.navPrincipal {
 
     height: 50px;
 
 }
-.NavGeral{
+
+.NavGeral {
     padding: 10px;
     text-align: right;
 }
 
-.navItem{
+.navItem {
     padding: 8px;
-    border: solid 2px #817fee ;
+    border: solid 2px #817fee;
     border-radius: 30px;
-    background-color: #817fee59 ;
-    cursor:pointer;
-    
+    background-color: #817fee59;
+    cursor: pointer;
+
 }
 
-.navItem:hover{
+.navItem:hover {
     padding: 10px;
-    border: solid 2px #82967a ;
+    border: solid 2px #82967a;
     border-radius: 30px;
-    background-color: #82967ab9 ;
-    cursor:pointer;
+    background-color: #82967ab9;
+    cursor: pointer;
 
 }
 
@@ -70,35 +73,82 @@ nav ul li a {
 
 main {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    width: 100%;
+}
+
+.buttonComprar {
+    padding: 8px;
+    border: solid 2px #817fee;
+    border-radius: 30px;
+    background-color: #817fee59;
+    cursor: pointer;
 
 }
+
+.buttonComprar:hover {
+    padding: 10px;
+    border: solid 2px #82967a;
+    border-radius: 30px;
+    background-color: #82967ab9;
+    cursor: pointer;
+
+}
+
 
 article ul {
     list-style: none;
     text-align: center;
 }
 
-article ul li a{
+article ul li a {
     text-decoration: none;
-    
+
 }
 
-.produtosMain{
+.produtosListados {
+    text-align: center;
+    height: 100%;
+    padding: 10px;
+    padding: 3px;
+}
+
+.articleHome {
+    width: 30%;
+    float: left;
+    align-items: center;
+    border: solid 2px #000000;
+    border-radius: 10px;
+    justify-items: space-between;
+    /* margin-left: 10px; */
+    margin-top: 10px;
+}
+.tittleProdutos{
+    text-align: center;
+    color: #000000;
+    font-size: 2rem;
+    background-color: #a0beda;
+    border:ridge 2px #3a3a3a;
+    border-radius: 10px;
+  
+}
+
+.produtosMain {
     background-color: #39ad3f;
 }
 
-.produtosListaMain{
+.produtosListaMain {
     background-color: #817fee;
     border: 2px solid;
     size: 2rem;
-    
-}
 
+}
+.notesList{
+    display: flex;
+    justify-content: space-between;
+}
 section {
     flex: 2;
-    margin-right: 20px;
+   
 }
 
 section h2 {
@@ -113,7 +163,7 @@ article {
     padding: 10px;
 }
 
-article img{
+article img {
     height: 150px;
 }
 
@@ -132,16 +182,16 @@ aside {
     color: #bbbbbb;
     border-right: solid 3px #39ad3f;
     text-align: center;
-   
-    flex: 0.5;   
-   
+    width: 20%;
+    
 }
 
-.NavLateralEsq{
-margin-top: 10px;
+.NavLateralEsq {
+    margin-top: 10px;
 }
 
 aside h2 {
+    margin-top: 10px;
     border-radius: 35px;
     background: #0053b3;
     padding: 10px;
@@ -164,21 +214,21 @@ aside ul li a {
     text-decoration: none;
     color: #000000;
     padding: 10px;
-    border: solid 2px #817fee ;
+    border: solid 2px #817fee;
     border-radius: 30px;
-    background-color: #817feeb7 ;
-    cursor:pointer;
+    background-color: #817feeb7;
+    cursor: pointer;
 }
 
 
 aside ul li a:hover {
     text-decoration: none;
-    color:#fff;
+    color: #fff;
     padding: 10px;
-    border: solid 2px #82967a ;
+    border: solid 2px #82967a;
     border-radius: 30px;
-    background-color: #82967ab9 ;
-    cursor:pointer;
+    background-color: #82967ab9;
+    cursor: pointer;
 }
 
 footer {
@@ -190,7 +240,7 @@ footer {
 }
 
 
-footer img{
+footer img {
     height: 30px;
     width: 30px;
 }
