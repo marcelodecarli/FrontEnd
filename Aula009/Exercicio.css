@@ -122,14 +122,15 @@ article ul li a {
     /* margin-left: 10px; */
     margin-top: 10px;
 }
-.tittleProdutos{
+
+.tittleProdutos {
     text-align: center;
     color: #000000;
     font-size: 2rem;
     background-color: #a0beda;
-    border:ridge 2px #3a3a3a;
+    border: ridge 2px #3a3a3a;
     border-radius: 10px;
-  
+
 }
 
 .produtosMain {
@@ -142,13 +143,22 @@ article ul li a {
     size: 2rem;
 
 }
-.notesList{
+
+.contatoList{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.notesList {
     display: flex;
     justify-content: space-between;
 }
+
 section {
     flex: 2;
-   
+
 }
 
 section h2 {
@@ -176,6 +186,10 @@ article header p {
     color: #555;
 }
 
+.articleNoteSelect {
+    text-align: center;
+}
+
 
 aside {
     background: #011935;
@@ -183,7 +197,7 @@ aside {
     border-right: solid 3px #39ad3f;
     text-align: center;
     width: 20%;
-    
+
 }
 
 .NavLateralEsq {
@@ -244,3 +258,45 @@ footer img {
     height: 30px;
     width: 30px;
 }
+.imgContato {
+ 
+    height: 30px;
+    width: 30px;
+}
+
+table {
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+  }
+  
+  td, th {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+
+  }
+  
+  th {
+    background-color: rgb(97, 97, 97);
+    color: antiquewhite;
+    text-decoration: none;
+  }
+  
+  td {
+    text-align: center;
+  }
+  td a{
+    text-decoration: none;
+    color:#fff
+  }
+  
+  tr:nth-child(even) td {
+    background-color: rgb(48, 48, 48);
+    color:#fff;
+    
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: rgb(131, 131, 131);
+  }
