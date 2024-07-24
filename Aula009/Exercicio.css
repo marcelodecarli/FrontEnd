@@ -272,7 +272,7 @@ table {
   td, th {
     border: 2px solid rgb(0, 0, 0);
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 10px;
     text-decoration: none;
 
   }
@@ -299,4 +299,47 @@ table {
   
   tr:nth-child(odd) td {
     background-color: rgb(131, 131, 131);
+  }
+
+  .loginTR:nth-child(even) td {
+    background-color: #d8d8d8;
+    color: #000000;
+  }
+  
+  .loginTR:nth-child(odd) td {
+    background-color: #d8d8d8
+  }
+
+
+  .inputLogin{
+    
+    border: none;
+  }
+
+  .buttonEsqueceu{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #ff7b76;
+    cursor: pointer;
+  }
+  .buttonEsqueceu:hover{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #6679ad;
+    cursor: pointer;
+  }
+
+  .buttonLogin{
+    background-color: #011935;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .buttonLogin:hover{
+    color: #011935;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
   }
