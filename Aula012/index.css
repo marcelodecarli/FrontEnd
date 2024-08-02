@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
 header {
@@ -18,15 +19,20 @@ aside {
     min-height: 75vh;
     width: 20vw;
    justify-content: flex-start;
-   align-content: flex-start;
+   align-items:center;
 }
 
 aside ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
-    
+    list-style: none;
+}
+aside ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
 }
 
 main {
