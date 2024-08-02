@@ -1,0 +1,131 @@
+*{
+    font-family: Bona Nova SC;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.6;
+    background: #00027e;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    background-color: cadetblue;
+    height: 25vh;
+}
+
+header h1{
+   
+    text-align: center;
+}
+
+
+nav{
+    text-align: right;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: bisque;
+}
+
+
+nav ul li{
+    display:inline-flex;
+    list-style-type: none;
+    padding: 6px;
+    margin-right: 20px;
+}
+
+.navItem{
+    border: solid 2px #000000;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.575);
+    
+}
+.navItem:hover{
+    border: solid 2px #18135a6e;
+    border-radius: 25px;
+    background-color: #18135a6e;
+    
+}
+
+
+main{
+    background-color: rgb(189, 230, 216);
+    display: flex;
+}
+
+
+
+main aside{
+    width: 20%;
+    height: 150%;
+}
+
+article{
+    display: flex;
+   text-align: center;
+}
+article img{
+    
+    width: 250px;
+    
+}
+
+.articleHome {
+    width: 30%;
+    float: left;
+    align-items: center;
+    border: solid 2px #000000;
+    border-radius: 10px;
+    justify-items: space-between;
+    /* margin-left: 10px; */
+    margin-top: 10px;
+}
+
+div aside{
+    height:200vh;
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between 5px;
+}
+
+aside ul li a{
+    padding: 8px;
+    color: bisque;
+   text-decoration: none;
+   align-content: space-between 15px;
+}
+
+aside ul li a{
+
+    border: solid 2px #000000;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+.NavLateralEsq{
+    margin-top: 15px;
+    align-content: space-between 15px;
+ 
+
+}
+
+footer {
+    text-align: center;
+    background: cadetblue;
+    color: #fff;
+    height: 25vh;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
+}
