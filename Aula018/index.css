@@ -185,13 +185,16 @@ text-align: right;
 
 }
 
+main div img{
+    
+    width: 150px;
+    height: 150px;
+}
 
 #img2{
     text-align: right;
 
-    
-    width: 150px;
-    height: 150px;
+
    
 
     grid-column-start: 3;
