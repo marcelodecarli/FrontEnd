@@ -1,0 +1,40 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(200px,1fr));
+}
+
+
+header {
+    width: 250px;
+    height: 250px;
+    background-color: aquamarine;
+
+}
+
+aside {
+    width: 250px;
+    height: 250px;
+    background-color: cornflowerblue;
+}
+
+main {
+    width: 250px;
+    height: 250px;
+    background-color: silver;
+}
+
+footer {
+    width: 250px;
+    height: 250px;
+    background-color: peru;
+}

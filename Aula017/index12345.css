@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "header header header"
+        "grid-item grid-item grid-item"
+        "grid-item grid-item grid-item";
+    grid-gap: 10px 20px;
+    border: solid 2px;
+
+  
+}
+
+.grid-container{
+    grid-area: grid-container;
+    background-color: rgb(255, 184, 91);
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.grid-item{
+    display: flex;
+    background-color: rgb(255, 191, 191);
+    justify-content: center;
+    align-items: center;
+}
+

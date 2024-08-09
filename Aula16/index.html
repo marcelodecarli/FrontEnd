@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            grid-template-rows: auto 1fr auto;
+            grid-template-areas:
+                "header header header header"
+                "aside main main main"
+                "footer footer footer footer";
+            grid-gap: 5px;
+            border: solid 2px;
+            text-align: center;
+        }
+
+
+
+
+        header {
+            background-color: aquamarine;
+            grid-area: header;
+        }
+
+        aside {
+            background-color: cornflowerblue;
+            grid-area: aside;
+        }
+
+        main {
+            display: grid;
+            background-color: silver;
+            grid-area: main;
+
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas:
+                "section img"
+                "img section";
+        }
+
+        section {
+            grid-area: section;
+        }
+
+        img{
+            grid-area: img;
+        }
+
+        footer {
+            background-color: peru;
+            grid-area: footer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>titulo</h1>
+        </header>
+
+        <main>
+            <section>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam consequat viverra lectus. Pellentesque
+                    tempus enim a leo accumsan, non commodo purus dignissim.
+                    Nullam eget ornare odio, ac commodo erat.
+                    Quisque dolor purus, pharetra id magna nec, molestie vestibulum enim.
+                    Fusce in turpis id est tempor ultrices at ut purus. </p>
+
+            </section>
+            <img src="#" alt="">
+        </main>
+
+        <aside>
+            navegacao
+        </aside>
+
+        <footer>
+            rodapé
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
