@@ -19,7 +19,7 @@ header {
     grid-template-columns: 100px 1fr;
     grid-template-rows: 1fr;
     grid-template-areas:
-        "foto barraHeader barraHeader";
+        "foto barraHeader ";
     grid-gap: 10px 20px;
 }
 
@@ -98,97 +98,12 @@ header {
 
 main {
 
-
     max-width: 100%;
     margin-top: 10px;
-    display: grid;
-    grid-template-columns: 1fr 2px 1fr;
-    grid-template-rows: 1fr 2px 1fr 2px 1fr;
-    justify-items: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
-}
-
-
-.dividirRow1 {
-    width: 100%;
-    margin-top: 10px;
-    height: 100%;
-    width: 100%;
-    grid-column: 1 / 4;
-    grid-row: 2 / 3;
-    background-color: #2B573C;
-}
-
-.dividirRow {
-    width: 100%;
-    margin-top: 10px;
-    height: 100%;
-    width: 100%;
-    grid-column: 1 / 4;
-    grid-row: 4 / 5;
-    background-color: #2B573C;
-}
-
-#img1 {
-
-    text-align: right;
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
-
-#img1Inside {
-    height: 150px;
-    width: 300px;
-}
-
-#img2Inside {
-    height: 150px;
-    width: 300px;
-}
-
-#texto1 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    max-width: 80%;
-    margin-left: 5px;
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
-}
-
-main div img {
-    width: 150px;
-    height: 150px;
-}
-
-#img2 {
-    text-align: right;
-    grid-column: 3 / 4;
-    grid-row: 3 / 3;
-}
-
-#texto2 {
-    text-decoration: none;
-    margin-left: 20px;
-    margin-top: 25px;
-    grid-column: 1 / 2;
-    grid-row: 3 / 3;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    max-width: 80%;
-
-}
-
-#texto3 {
-    grid-column: 1 / 4;
-    grid-row: 5 / 6;
-    margin-left: 20px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    max-width: 90%;
 }
 
 @media (max-width: 450px) {
@@ -262,4 +177,23 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+table{
+    align-items: center;
+    border: solid 1px;
+    background-color: rgb(124, 155, 138);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.8);
+}
+
+table tr{
+    margin-top: 10px;
+}
+td, tr, th{
+    background-color: #c4c4c4;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 10px;
 }
